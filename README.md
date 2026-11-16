@@ -4,7 +4,7 @@
 
 File Inspector lets you inspect local files, calculate cryptographic checksums, compare files byte-for-byte, and detect duplicates — without ever uploading a byte. All processing happens locally in your browser using the File APIs, the Web Crypto API, and a maintained client-side MD5 library.
 
-> **Live Demo:** [https://USERNAME.github.io/file-inspector/](https://majidramzi.github.io/file-inspector/)
+> **Live Demo:** [https://majidramzi.github.io/file-inspector/](https://majidramzi.github.io/file-inspector/)
 
 ---
 
@@ -133,7 +133,7 @@ Requirements: **Web Crypto API** (`crypto.subtle`, secure context), **File API**
 ## Installation
 
 ```bash
-git clone https://github.com/USERNAME/file-inspector.git
+git clone https://github.com/majidramzi/file-inspector.git
 cd file-inspector
 npm install
 ```
@@ -187,11 +187,11 @@ Output is static: `dist/index.html` + hashed assets, ready for any static host.
 
 The repository ships with [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml), which runs **type check → tests → build** and deploys `dist/` to GitHub Pages on every push to `main`.
 
-1. Push this repository to GitHub as `USERNAME/file-inspector`.
+1. Push this repository to GitHub as `majidramzi/file-inspector`.
 2. In the repository settings, set **Settings → Pages → Source** to **GitHub Actions**.
 3. Push to `main` (or run the workflow manually from the **Actions** tab).
 
-Expected URL: **`https://USERNAME.github.io/file-inspector/`**
+Expected URL: **`https://majidramzi.github.io/file-inspector/`**
 
 The Vite `base` option is already configured:
 
