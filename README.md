@@ -4,7 +4,7 @@
 
 File Inspector lets you inspect local files, calculate cryptographic checksums, compare files byte-for-byte, and detect duplicates — without ever uploading a byte. All processing happens locally in your browser using the File APIs, the Web Crypto API, and a maintained client-side MD5 library.
 
-> **Live Demo:** [https://USERNAME.github.io/file-inspector/](https://USERNAME.github.io/file-inspector/)
+> **Live Demo:** [https://USERNAME.github.io/file-inspector/](https://majidramzi.github.io/file-inspector/)
 
 ---
 
